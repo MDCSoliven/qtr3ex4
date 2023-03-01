@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Bootstrap images and forms</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class='navbar navbar-expand bg-secondary'>
+         <ul class='navbar-nav'>
+            <li class='nav-item'><a class='nav-link' hfef='#'>Home</a></li>
+            <li class='nav-item'><a class='nav-link' hfef='#'>About Us</a></li>
+            <li clas='nav-item'><a class='nav-link' hfef='#'>Contact Us</a></li>
+            <li clas='nav-item'><a class='nav-link' hfref='#'>Log In</a></li>
+            <li clas='nav-item'><a class='nav-link' hfref='#'>Sign Up</a></li>
+        </ul>
+    </nav>
+    <table class='table table-bordered'>
+    	<tr>
+    		<td>Image</td>
+    		<td>Description</td>
+            <td>Net Worth</td>
+        </tr>
+        <tr>
+        	<td class='bg-warning'><img src='https://frontofficesports.com/wp-content/uploads/2023/02/FOS-23-2.7-Lebron-James-Record.jpg' width='450px' height='350px' class='rounded'></td>
+        	<td>LeBron James - Regarded as one of the best basketball players, LeBron James is often being compared to Michael Jordan. He won four NBA Championships, four NBA MVP Awards, four NBA Finals MVP Awards and three All-Star MVP Awards along with two Olympic Gold Medals. He also scored the most points in the playoffs, the most career points with playoffs and regular season combined, the second most regular season points, and has the fourth most career assists.</td>
+        	<td class='bg-warning'>1B USD</td>
+        </tr>
+        <tr>
+        	<td class='bg-info'><img src='https://phantom-marca.unidadeditorial.es/1f1800fa5e9d441d87cb4fe423827948/resize/1320/f/jpg/assets/multimedia/imagenes/2022/11/26/16694993827727.jpg' width='450px' height='350px' class='rounded'></td>
+            <td class='bg-light'>Lionel Messi - Regarded as one of the best football players, Lionel Messi won many awards. These awards included  seven Ballon d'Or awards and a record six European Golden Shoes. He and his team won the Fifa World Cup 2022 in Qatar. </td>
+            <td class='bg-warning'>620M USD</td>
+        </tr>
+        <tr>
+        	<td class='bg-danger'><img src='https://imageio.forbes.com/specials-images/imageserve/63885502834f9981dab27925/Cristiano-Ronaldo-celebrates-Bruno-Fernandes-goal-for-Portugal-against-Uruguay/960x0.jpg?format=jpg&width=960' width='450px' height='350px' class='rounded'></td>
+        	<td class='bg-success'>Christiano Ronaldo - Also regarded as one of the best football players, Ronaldo  won five Ballon d'Or awards as well as four European Golden Shoes, which is the most by a European player. He has won a total of 34 trophies in his career. He also has five world cup appearances.</td>
+            <td class='bg-warning'>490M USD</td>
+        </tr>
+        <tr>
+        	<td class='bg-success'><img src='https://media.cnn.com/api/v1/images/stellar/prod/220930165943-01-neymar.jpg?c=original' width='450px' height='350px' class='rounded'></td>
+        	<td class='bg-warning'>Neymar Junior - 	Regarded as one of the best Brazilian footballers, and one of the best footballers of all time, Neymar scored at least 100 goals for three different clubs, giving him the title as one of three players being able to do this. He debuted at age 17 in the Santos club where he helped the club win two successive Campeonata Paulista Championships. He also made three world cup appearances.</td>
+        	<td class='bg-warning'>200M USD</td>
+        </tr>
+        <tr>
+        	<td class='bg-warning'><img src='https://cdn.vox-cdn.com/thumbor/l5mkuN5RrMKBK9L2QRneIy6MbL4=/450x0:2794x2685/1200x800/filters:focal(1384x356:2028x1000)/cdn.vox-cdn.com/uploads/chorus_image/image/70911072/1399118229.0.jpg' width='450px' height='350px'></td>
+        	<td class='bg-primary'>Stephen Curry- Widely regarded also as one of the greatest basketball players of all, Stephen Curry is a nine-time NBA All-Star and an eight-time All-NBA Selection. he was also named the NBA MVP twice and has four NBA Championships. He is also the greatest shooter in NBA history.</td>
+        	<td class='bg-warning'>160M USD</td>
+        </tr>
+    </table>
+      <table class='table table-bordered'>
+        <tr>
+            <td class='bg-warning col-xl-5'>Let us know who is your favorite</td>
+        </tr>
+             <tr>
+               <td class='col-xl-5 bg-secondary'>Email
+               <input type='text' placeholder='Email Address'></td>
+             </tr>
+               <td class='bg-secondary'><form class="form-group">
+            <div class="form-check bg-warning">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">LeBron James
+            </label>
+        </div>
+        <div class="form-check bg-info">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Lionel Messi
+            </label>
+        </div>
+        <div class="form-check bg-danger">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Christiano Ronaldo
+            </label>
+        </div>
+        <div class="form-check bg-success">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Neymar Jr.
+            </label>
+        </div>
+        <div class="form-check bg-primary">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">Stephen Curry
+            </label>
+        </div>
+        <tr>
+        <td class='col-xl-5 bg-secondary'><textarea cols='20' rows='5' placeholder='Reason'></textarea></td>
+     </tr>
+    <div>
+    <br>
+    <tr>
+        <td class='col-xl-5 bg-secondary'><button class='btn btn-success btn-lg active'>Send</button>
+        <button class='btn btn-danger btn-lg active'>Clear</button></td>
+    </tr>
+    </div>
+    </form>
+</body>
+</html>
